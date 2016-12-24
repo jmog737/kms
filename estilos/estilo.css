@@ -1,0 +1,357 @@
+* {text-indent:0px ; margin:0px ; padding:0px ; border:0px}
+p {text-align: justify}
+h1 {font-size: 1.4em; color:blue ; font-weight: bold ; text-decoration: underline ; text-align: center}
+h2 {font-size: 1.1em; color:blue ; font-weight: bold ; text-decoration: none ;text-align: center}
+h4 {font-weight: bold; text-align: center; background-color: #ffcc66; text-decoration: underline}
+
+body        {text-align: center }
+
+#global     {width:100% ; height:100%; margin:0px auto; position:relative;max-width: 1250px; }
+
+#curva-superior { background-image: url(objetos/curva-superior.gif) ;background-repeat: no-repeat ;background-color: green; width: 100% ;height:20px ;overflow: hidden }
+
+#cabecera   {height:52px;width:100%;background-color:white; border-left: black 1px solid;border-right: black 1px solid; border-top: black 1px solid; padding:0px;margin:0px auto}
+
+.centrar {padding-left:0px}
+
+.tabla {width:100%;height:52px; margin:0px auto; padding:0px; background-color: red; border: none;}
+.logo {width:200px;margin:0px auto; padding:0px; background-color: white;border: none}
+.tituloTabla {width:800px;margin:0px auto; padding:0px; font-weight:bold;font-size:35px;color:#FF0649;text-align:center;background-color:#ffff99;border: none}
+.margen {width:110px; margin:0px auto; padding:0px; background-color:#ffff99;text-align: right; }
+.hora{width:90px;margin:0px auto; padding:0px; background-color: #ffff99; text-align: right;}
+.fecha {width:110px; background-color:#ffcc66; color:black;font-size:16pt; text-align:center; border:outset 1px;margin: 0px auto}
+.reloj {width:90px; background-color:#ffcc66; color:black;  font-size:16pt; text-align:center; border:outset 1px;margin:0px auto}
+
+#navegacion {background-color:#ffcc66 ; height:20px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    width:100%;
+}
+#navegacion li {float:left ; list-style:none ; margin: 0px 20px 0px 20px }
+#navegacion ul { margin-left: 415px }
+
+#contenido  {width: 100%; background-color:#bbf6f4; border: black 1px solid}
+#contenido p {margin: 5px 10px 0px 10px ; text-indent: 15px;}
+
+#contenido input:focus{
+    background: #ccffcc;
+    background-color: #ffff00;
+}
+
+#contenido textarea:focus{
+    background: #ccffcc ;
+    background-color: #ffff00;
+}
+
+#resultadoConsulta {background-color:#ffffcc}
+
+#menu       {width: 150px ; float:left ; text-align:left ; margin: 8px 10px 3px 10px;background-image: url(objetos/menu-parte-inferior.gif);background-position: bottom;padding-bottom:5px}
+#menu li    {list-style:none ; margin: 4px 8px 4px 6px }
+#menu h1 {text-decoration:none ; font-size:14px;background-image: url(objetos/menu-parte-superior.gif);}
+
+#pie { background-color: #B4E395 ;width: 100%; height:20px;text-align: left;border-left: black 1px solid ;border-right: black 1px solid; border-bottom: black 1px solid;}
+
+#curva-inferior { background-image: url(objetos/curva-inferior1.gif) ;background-repeat: no-repeat ;width: 100% ;height:16px ;overflow: hidden }
+
+a{color:blue ; text-decoration:none ; font-size: 1.0em; display: block }
+a:link    {}
+a:visited {}
+a:hover   {color:red ; text-decoration:underline ; background-color: silver}
+a:active  {}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+
+.formulario {
+    text-align:center;
+    vertical-align: middle;
+    padding:0px;
+    margin: 0px auto;
+}
+
+.negra {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: black;
+    font-weight: bold;
+}
+.negritaRoja {
+    font-family: sans-serif;
+    font-size: 16pt;
+    color: red;
+    font-weight: bold;
+}
+.negritaAzul {
+    font-family: sans-serif;
+    font-size: 16pt;
+    color: blue;
+    font-weight: bold;
+}
+.negritaGrande {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+.lila {background-color: #CC66FF;}
+.naranja {
+    background-color: #ffcc33;
+    text-align: right;
+}
+.lilaNegrita {
+    background-color: #CC66FF;
+    font-weight: bold;
+}
+
+.cabecera{
+    background-color: #ffcc99;
+    font-weight: bold;
+    text-align: center;
+}
+.cabeceraDepto{
+    background-color: #ffcc33;
+    font-weight: bold;
+    text-align: center;
+}
+.cabeceraCorreo{
+    background-color: #ffcc33;
+    font-weight: bold;
+    text-align: center;
+}
+.cabeceraHojas{
+    background-color:#ffcc33;
+    font-weight: bold;
+    text-align: center;
+}
+.cabeza {background-color:#00ccff }
+
+.entrada {border: 3px solid #70C332;color: #666;background: #fff;}
+
+.texto {
+    background-color: #ffcc99;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100px;
+    text-align: right
+}
+
+.derecha {
+    float: right;
+    font-size: 12pt;
+    font-family: sans-serif;
+    color: blue;
+    text-decoration:underline;
+    padding-right: 4pt;
+}
+
+.azul {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: blue;
+    padding-left: 3pt;
+}
+
+.boton {border-style:outset; background-color:	#ccccff; border-width:3px;font-family:sans-serif;font-weight:bold; font-size:14px;}
+.boton1 {border-style:outset; background-color:	#00cc00; border-width:4px;font-family:sans-serif;font-weight:bold; font-size:14px;}
+
+table.edicion th.subtitulo1{
+    background-color: sandybrown;
+}
+table.edicion th.subtitulo2{
+    background-color:  lightpink;
+}
+
+table.edicion {
+    background-color: #ffeaa8;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0px;
+    margin:10px auto;
+    border:solid 1px black;
+    max-width: 63%;
+}
+table.edicion select{
+    text-align: center;
+}
+
+table.edicion th{
+    background-color: #96CE70;
+    font-size: 16px;
+}
+table.edicion td{
+    border-right-style: inset;
+    border-left-style: inset;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+    width: auto;
+}
+
+table.edicion td.anchoFijo{
+    max-width: 5px;
+    background-color: green;
+    resize: none;
+}
+table.edicion input[type="text"].test{
+    max-width:fit-content;
+    background-color: blue;
+    size:4;
+}
+
+.tituloDeptos{
+    background-color:#ffff99;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tituloCorreos{
+    background-color:#66ff33;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tituloInsertos{
+    background-color: #66ff33;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tituloAvisos{
+    background-color: #ff3300;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tituloAuditoria{
+    background-color:#ff99ff;
+    font-weight: bold;
+}
+
+.tituloContenedores{
+    background-color: #ffcc00;
+    font-weight: bold;
+}
+
+.resaltado {
+    background-color: #ffff33;
+    color: #ee1313;
+    font-weight:bolder;
+    font-size: 1.3em;
+}
+
+table.auditoria {
+    background-color:#ffeaa8;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0px;
+    margin:0px auto;
+    
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Times New Roman',Times,serif;
+}
+table.auditoria th{
+    background-color:#00cc00;
+    font-size: 16px;
+}
+table.auditoria td{
+    border-right-style: inset;
+    border-left-style: inset;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+}
+table.auditoria input{
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 20px;
+    text-align: center;
+}
+table.auditoria input:focus{font-size: 36px}
+
+table.resultado {
+    background-color:#ffff99;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0px;
+    margin:0px auto;
+    
+    font-size: 18px;
+    font-family: 'Times New Roman',Times,serif;
+    width: 40%;
+}
+table.resultado th{
+    background-color:#ffcc66;
+    font-size: 16px;
+}
+table.resultado td{
+    border-right-style: inset;
+    border-left-style: inset;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+}
+table.resultado input{
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#test input.prueba:focus {
+    background-color:palegreen;
+    border-right-style: inset;
+    border-left-style: inset;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.select{
+    width: 100%;
+    font-size: 30px;
+    /* height: 260px; */
+    background-color:#ffccff;
+}
+
+.opcion{
+    background-color:#ffcc00;
+}
+

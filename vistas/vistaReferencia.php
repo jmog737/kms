@@ -32,7 +32,7 @@ if ($num_llaves || $num_certificados >= 1)
       </tr>
       <tr>
           <th style="text-align: left">Lugar</th>
-          <td><input id="lugar" name="lugar" type="text" class="test" value="<?php echo $lugar ?>" maxlength="10" size="10"></td>
+          <td><input id="lugar" name="lugar" type="text" disabled='true' class="test" value="<?php echo $lugar ?>" maxlength="10" size="10"></td>
           <th style="text-align: left">HSM</th>
           <td><?php echo $hsm ?></td>
           <th style="text-align: left">Slot</th>
@@ -55,7 +55,7 @@ if ($num_llaves || $num_certificados >= 1)
           <th colspan="6">DETALLES</th>
       </tr>
       <tr>
-          <td colspan="6"><input id="detalles" name="detalles" type="text" size="5" maxlength="10" style="width:70%; text-align: center;" value="<?php echo $detalles ?>"></td>
+          <td colspan="6"><input id="detalles" name="detalles" disabled='true' type="text" size="5" maxlength="10" style="width:70%; text-align: center;" value="<?php echo $detalles ?>"></td>
       </tr>
       
       <tr>

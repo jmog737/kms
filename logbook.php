@@ -20,7 +20,7 @@ else
   if ($flagEliminar == 1)
     {
     $actividad = $_POST["idactividades"];
-    $borrar = "update actividades set estado='inactiva' where idactividades='$actividad'";
+    $borrar = "update actividades set estado='inactiva' where idactividades='".$actividad."'";
     
     $data = consultarBD($borrar, $dbc);
     if ($data) 

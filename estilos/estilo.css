@@ -211,8 +211,6 @@ table.edicion td.anchoFijo{
 }
 table.edicion input[type="text"].test{
     max-width:fit-content;
-    background-color: blue;
-    size:4;
 }
 
 .tituloDeptos{

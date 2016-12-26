@@ -12,10 +12,10 @@ if ($flagEliminar == 1)
 }
 
 if ($registros >= 1)
-  {
-?> 
+  { 
+?>
 <form name='logbook' method='post' action='nuevaActividad.php'>
-  <table class="edicion">
+    <table class="edicion">
       <tr>
           <th colspan="3">D&Iacute;A</th>
           <th rowspan="2">Motivo</th>          

@@ -166,8 +166,9 @@ input[type="checkbox"]{
 table.edicion th.subtitulo1{
     background-color: sandybrown;
 }
+
 table.edicion th.subtitulo2{
-    background-color:  lightpink;
+    background-color: sandybrown;
 }
 
 table.edicion {

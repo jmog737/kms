@@ -11,7 +11,7 @@ if (empty($_SESSION['user_id']))
 <?php
   if (isset($_POST['submit']))
     {
-    echo $error_msg;
+    echo $error_msg;echo "algo para agregar y testear el commit";
     }
 ?>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">

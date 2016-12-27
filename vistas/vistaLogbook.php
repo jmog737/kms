@@ -23,7 +23,7 @@ if ($registros >= 1)
           <th colspan="3">Usuario 2</th>
       </tr>
       <tr>
-        <th class="subtitulo1">Fecha</th>
+        <th class="subtitulo2">Fecha</th>
         <th class="subtitulo1">Inicio</th>
         <th class="subtitulo1">Fin</th>
         <th class="subtitulo1">Nombre</th>

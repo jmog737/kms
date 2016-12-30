@@ -10,7 +10,7 @@ if ($flagEliminar == 1)
   {
   echo "<font class='negra'>".$mensajeBorrado."</font><br>";
 }
-
+echo "algo agregado";
 if ($registros >= 1)
   { 
 ?>
